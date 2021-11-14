@@ -1,0 +1,25 @@
+body{
+    background-image: url("cool image.jpg");
+}
+input{
+    border-radius: 50px;
+}
+#mesnge{
+    width: 30px;
+    height: 30px;
+}
+#inline{
+    display: inline-block;
+}
+#login_part{
+    margin-top: 100px;
+     padding-top: 100px;
+     width: 25%;
+     padding-left: 0px;
+     padding-bottom: 100px;
+     padding-right: 0px;
+     border-color: rgb(255, 0, 0);
+     border-width: 300px;
+     border-radius: 1000px;
+    background:linear-gradient(rgb(0, 140, 255),rgb(221, 92, 113))
+}
