@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="kwitter_room.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="kwitter_room.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <button class="btn btn-warning glyphicon glyphicon-log-out"> Log Out</button>
+        <center id="center">
+            <h1 id="header">Kwitter</h1><h3 class="color-white" id="user_name"></h3>
+            <br>
+            <label>Hello,</label>
+            <label id="user_name"></label>
+            <br>
+            <div>
+                <h3>Add a Room!</h3>
+                <br>
+            <input id="addRoominp" type="text">
+            </div>
+            <button id="addroom" onclick="addRoom()" class="btn btn-success">Add Room
+            </button>
+            <br>
+            <br>
+            <h2>Available Rooms</h2>
+            <div id="output"></div>
+            
+        </center>
+    </body>
+</html>
