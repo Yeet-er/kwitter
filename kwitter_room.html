@@ -7,17 +7,17 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     </head>
     <body>
-        <button class="btn btn-warning glyphicon glyphicon-log-out"> Log Out</button>
+        <button onclick="logout()" class="btn btn-warning glyphicon glyphicon-log-out"> Log Out</button>
         <center id="center">
             <h1 id="header">Kwitter</h1><h3 class="color-white" id="user_name"></h3>
             <br>
-            <label>Hello,</label>
-            <label id="user_name"></label>
+            <h2 id="user_name" class="color_white"></h2>
+            
             <br>
             <div>
                 <h3>Add a Room!</h3>
                 <br>
-            <input id="addRoominp" type="text">
+            <input id="room_name" type="text">
             </div>
             <button id="addroom" onclick="addRoom()" class="btn btn-success">Add Room
             </button>
